@@ -1,0 +1,167 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    width: 600px;
+}
+.avatar{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+form{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: #e4097f 3px solid;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+select{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reviews .gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review{
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    background-color: #fce6f2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.btn:hover{
+    color: #e4097f;
+}
+.review .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review .text{
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+.review .textAnswer{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.review .images{
+    height: 100%;
+}
+.buttons-mini{
+    display: flex;
+    flex-direction: row;
+}
+.small-info .date{
+    display: flex;
+    flex-direction: row;
+}
+.date h5{
+    margin-right: 5px;
+    margin-bottom: -15px;
+    cursor: none;
+}
+.edit-btn{
+    /* display: flex;
+    align-items: center;
+    margin-top: -7px; */
+    background-color: #f7fce600;
+    color: #2b2a28;
+    width: 110px;
+    height: 10px;
+    padding: 0px;
+}
+.edit-btn:hover{
+    background-color: #f7fce600;
+    color: #e4097f;
+}
+.answer{
+    background-color: #fce6f200;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 0px;
+}
+.answer .info{
+    width: 500px;
+    background-color: #fce6f2;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.answer .text{
+    height: 100px;
+}
+.btn_review{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.modal{
+    display: none;
+    justify-content: center;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+    overflow: auto;
+    background-color: #52032da3;
+}
+.modal-content{
+    background-color: rgb(255, 255, 255);
+    margin-top: 13%;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.btn-contour{
+    margin-top: 30px;
+}
+.avatar img{
+    height: 100%;
+    max-width: 280px;
+    object-fit: cover;
+}
+.form-change{
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    border: none;
+    margin-left: -30px;
+    width: 100%;
+}
+textarea{
+    width: 500px;
+    margin-bottom: 15px;
+}
+.form-change button{
+    width: 100px;
+    height: 40px;
+}

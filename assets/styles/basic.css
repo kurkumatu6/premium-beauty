@@ -1,0 +1,154 @@
+/* Подключение шрифтов */
+@font-face {
+  font-family: "Acrom-Bold";
+  src: local("Acrom"), url("/assets/fonts/Acrom-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Acrom-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Acrom-Medium";
+  src: local("Acrom"), url("/assets/fonts/Acrom-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Acrom-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Acrom-Regular";
+  src: local("Acrom"), url("/assets/fonts/Acrom-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Acrom-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Acrom-Light";
+  src: local("Acrom"), url("/assets/fonts/Acrom-Light.woff2") format("woff2"),
+    url("/assets/fonts/Acrom-Light.woff") format("woff");
+}
+
+/* Стили для текстов */
+h1 {
+  /* Названия */
+  font-family: "Acrom-Bold";
+  font-size: 45px;
+  color: #2b2a28;
+  text-align: center;
+}
+h2 {
+  /* Заголовки */
+  font-family: "Acrom-Medium";
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  color: #2b2a28;
+}
+h3 {
+  /* Подзаголовки */
+  font-family: "Acrom-Regular";
+  font-size: 22px;
+  color: #2b2a28;
+}
+h4 {
+  /* Заголовки полей */
+  font-family: "Acrom-Regular";
+  font-size: 16px;
+  font-weight: 100;
+  color: #2b2a28;
+}
+p {
+  /* Основной текст */
+  font-family: "Acrom-Regular";
+  font-size: 17px;
+  color: #2b2a28;
+}
+h5 {
+  /* Мелкий шрифт */
+  font-family: "Acrom-Light";
+  font-size: 12px;
+  color: #2b2a28;
+}
+a {
+  text-decoration: none;
+  font-family: "Acrom-Medium";
+}
+input{
+  font-family: "Acrom-Medium";
+}
+textarea{
+  font-family: "Acrom-Medium";
+}
+label{
+  font-family: "Acrom-Medium";
+}
+/* Кнопки */
+button {
+  /* Розовая заливка */
+  font-family: "Acrom-Regular";
+  font-size: 18px;
+  color: white;
+  background-color: #e4097f;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff0088;
+}
+
+.btn-green {
+  /* Зелёная заливка */
+  background-color: #afcb1f;
+}
+.btn-green:hover {
+  background-color: #bbdb19;
+}
+
+.btn-contour {
+  /* Розовый контур */
+  background-color: #e4097e00;
+  border: 3px solid #e4097f;
+  color: #e4097f;
+}
+.btn-contour:hover {
+  background-color: #e4097e10;
+}
+
+.btn-contour-green {
+  /* Зелёный контур */
+  background-color: #e4097e00;
+  border: 3px solid #afcb1f;
+  color: #afcb1f;
+}
+.btn-contour-green:hover {
+  background-color: #afcb1f20;
+}
+
+.btn-blocked {
+  /* Заблокированная розовая */
+  opacity: 50%;
+  cursor: default;
+}
+.btn-blocked:hover {
+  background-color: #e4097f;
+}
+
+.btn-blocked-green {
+  /* Заблокированная зелёная */
+  background-color: #afcb1f;
+  opacity: 50%;
+  cursor: default;
+}
+.btn-blocked-green:hover {
+  background-color: #afcb1f;
+}
+
+.btn-blocked-contour {
+  /* Заблокированный розовый контур */
+  background-color: #e4097e00;
+  border: 3px solid #e4097f;
+  color: #e4097f;
+  opacity: 50%;
+  cursor: default;
+}
+.btn-blocked-contour:hover {
+  background-color: #e4097e00;
+  border: 3px solid #e4097f;
+  color: #e4097f;
+}

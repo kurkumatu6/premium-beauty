@@ -1,0 +1,220 @@
+#title {
+  font-size: 35px;
+  text-align: left;
+}
+#subtitle {
+  font-weight: 300;
+}
+.main-chapter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#photo-teacher {
+  width: 400px;
+}
+.main-chapter .item {
+  padding: 40px;
+  padding-bottom: 0;
+}
+.main-chapter .text {
+  width: 500px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons button {
+  width: 200px;
+}
+
+.adv-chapter {
+  margin-top: -4px;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #e4097f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  user-select: none;
+}
+.adv-chapter .num {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.adv-chapter .text {
+  color: white;
+  padding-left: 15px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.adv-chapter .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+@media (max-width: 1000px) {
+  #title {
+    font-size: 23px;
+    text-align: left;
+  }
+  #subtitle {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .main-chapter {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  #photo-teacher {
+    width: 250px;
+  }
+  .main-chapter .item {
+    padding: 40px;
+    padding-bottom: 0;
+  }
+  .main-chapter .text {
+    width: 400px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttons button {
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+  }
+
+  .adv-chapter {
+    margin-top: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #e4097f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    user-select: none;
+  }
+  .adv-chapter .num {
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+  .adv-chapter .text {
+    font-size: 15px;
+    color: white;
+    padding-left: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .adv-chapter .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+@media (max-width: 500px) {
+  #title {
+    font-size: 19px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+  }
+  #subtitle {
+    font-size: 11px;
+    font-weight: 300;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .main-chapter {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  #photo-teacher {
+    width: 200px;
+  }
+  .main-chapter .item {
+    padding: 40px;
+    padding-bottom: 0;
+  }
+  .main-chapter .text {
+    width: 400px;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons button {
+    font-size: 11px;
+    height: 25px;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .adv-chapter {
+    margin-top: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #e4097f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    user-select: none;
+  }
+  .adv-chapter .num {
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+  .adv-chapter .text {
+    font-size: 11px;
+    color: white;
+    padding-left: 7px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .adv-chapter .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}

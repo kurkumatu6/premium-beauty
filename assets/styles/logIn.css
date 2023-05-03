@@ -1,0 +1,44 @@
+.login{
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border: solid 3px #e4097f;
+    border-radius: 20px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form .item{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+label h4{
+    font-size: 18px;
+}
+input{
+    background-color: #fce6f2;
+    border: none;
+    width: 330px;
+    height: 30px;
+}
+form button{
+    margin-top: 30px;
+    width: 450px;
+}
+.registration{
+    margin-top: 7px;
+    text-decoration: underline;
+    text-align: center;
+}
+.registration:hover{
+    color: #e4097f;
+}
+.error{
+    color: red;
+}

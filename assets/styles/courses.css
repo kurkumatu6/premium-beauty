@@ -1,0 +1,79 @@
+label {
+  font-family: "Acrom-Regular";
+  font-size: 17px;
+  color: #2b2a28;
+}
+form{
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 1100px;
+    border: 2px solid #e4097f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.parameters{
+    display: flex;
+    flex-direction: row;
+}
+.sort{
+    align-items: center;
+}
+.sort .item{
+    margin-left: 50px;
+}
+.filter{
+    justify-content: space-between
+}
+form button{
+    margin-top: 30px;
+}
+.course{
+    width: 300px;
+    background-color: #fce6f2;
+    padding: 20px;
+    margin: 20px;
+}
+.course h3{
+    height: 20px;
+}
+.course p{
+    height: 50px;
+}
+.course img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.name{
+    margin-bottom: 0px;
+}
+.buttons button{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+.courses-gallery{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

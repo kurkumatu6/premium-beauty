@@ -1,0 +1,84 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    margin-top: 20px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+.chapter{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-big{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
+.slider-photo{
+    width: 1000px;
+    height: 600px;
+    object-fit: cover;
+}
+.photo-small{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h1, h2{
+    text-align: center;
+}
+
+.block{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.block-text{
+    text-align: justify;
+}
+.r{
+    margin-left: 10px;
+}
+.l{
+    margin-right: 10px;
+} 
+.teacher-photo{
+    width: 900px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e4097f;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.arrow:hover{
+    background-color: #ff0088;
+}
+

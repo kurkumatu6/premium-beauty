@@ -1,0 +1,29 @@
+header{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    user-select: none;
+    border-bottom: #e4097f 3px solid;
+}
+#logo-header{
+    width: 130px;
+    cursor: pointer;
+}
+.text-header{
+    font-size: 15px;
+    font-family: "Acrom-Regular";
+    cursor: pointer;
+}
+.text-header:hover{
+    color: #e4097f;
+}
+.header-button{
+    font-size: 15px;
+    font-family: "Acrom-Regular";
+    width: 200px;
+    height: 40px;
+}
+

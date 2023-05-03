@@ -1,0 +1,145 @@
+.admin-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 425px;
+}
+h5 {
+  margin-top: 0px;
+}
+img {
+  width: 1000px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fce6f2;
+  width: 1000px;
+  padding: 20px;
+  padding-left: 50px;
+  margin: 20px;
+}
+form .item {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+form button {
+  margin-top: 30px;
+}
+.error {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.group-block {
+    width: 900px;
+    border: #e4097f 3px solid;
+    border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.group-in-element{
+    width: 900px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#add{
+
+    font-size: 20px;
+}
+#add2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#delete{
+    font-size: 20px;
+}
+.photo-and-text .photo{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+textarea {
+  width: 500px;
+}
+.mini-photo {
+  width: 200px;
+}
+#pageOk {
+  width: 500px;
+}
+input {
+  padding: 5px;
+  width: 650px;
+  height: 30px;
+  border-radius: 10px;
+}
+textarea{
+    padding: 5px;
+    width: 650px;
+    border-radius: 10px;
+}
+table {
+    font-family: "Acrom-Medium";
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #fce6f2;
+	border: 1px solid #e4097f;
+}
+table td {
+	border: 1px solid #e4097f;
+	padding: 5px;
+}
+a{
+    color: #e4097f;
+}
+.dowm{
+    margin-bottom: 30px;
+}
+.carusel{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo-carusel{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.big-carusel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}

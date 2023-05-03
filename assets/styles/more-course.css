@@ -1,0 +1,82 @@
+.course{
+    margin: auto;
+    width: 1000px;
+}
+img{
+    width: 400px;
+}
+.info{
+    
+    margin-left: 30px;
+    width: 600px;
+}
+h2 h3{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    width: 100%;
+}
+.buttons{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    margin-top: 10px;
+}
+#description{
+    display: block;
+}
+.buttons a{
+    color: #e4097f;
+}
+.buttons a:hover{
+    color: #afcb1f;
+}
+.back{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.booking h2{
+    margin-bottom: 0px;
+}
+.booking h3{
+    margin-top: 0px
+}
+.booking{
+    display: none;
+    background-color: #fce6f2;
+    padding: 20px;
+    margin: 10px;
+}
+form .item{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    align-items: center;
+}
+.item select{
+    margin-left: 30px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 7px;
+}
+form .f{
+    margin-top: 20px;
+}
+.buttons button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cancel{
+    margin-top: 20px;
+}
